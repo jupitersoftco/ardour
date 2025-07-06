@@ -5,6 +5,9 @@ import sys
 hardour_sources = [
         'load_session.cc',
         'misc.cc',
+        'plugin_loader.cc',
+        'plugin_error_handler.cc',
+        'headless_config.cc',
 ]
 
 def options(opt):
